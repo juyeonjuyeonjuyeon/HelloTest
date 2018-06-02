@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>rkdwnrkdwn</title>
+<style> 
+body{font-size : 30px; padding-left:50px; font-weight:bold;}
+input{font-size : 20px;margin : 20px; border : 1px white solid; border-bottom:2px solid red;}
+#button{padding:10px; border-radius : 50%; box-shadow : 3px 2px 5px; font-weight:bold; border:3px solid white;}
+</style>
+</head>
+<body>
+<form action="getdata.jsp" method="post">
+	너는 누구?<input type="text" name="who"><br>
+	여긴 어디?<input type="text" name="where"><br>
+	오늘 머 먹지?<input type="text" name="what" value="Mom's Touch"><br>
+	
+	<table style="text-align:center;">
+	<tr>
+		<td>나라 이름</td><td><input type="text" name="country1"></td><td><input type="text" name="country2"></td>
+	</tr>
+	<tr>
+		<td>축구 점수</td><td><input type="text" name="num1"/> :</td><td><input type="text" name="num2"/></td>
+		
+	</tr>
+	</table>
+	<input id="button" type="submit" value="go">
+</form>
+<a href="http://localhost/getdata.jsp?who=ju-yeon&where=escuela&what=Mom%27s+Touch">Get 데이터</a>
+</body>
+</html>
